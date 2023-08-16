@@ -53,4 +53,69 @@ body{
     width: 90%;
 }
 
+ul{
+    list-style: none;   
+}
+.flex-box-about{
+   
+    display: flex;
+    margin: 20px;
+}
 
+
+.second-column{
+    
+    border: 1px solid red;
+    border-radius : 10px;  
+    background-color: #d1d3ff;
+    margin:1px;
+}
+.personal-info{
+    width: 100%;
+ 
+}
+.skill{
+    display: flex;
+    margin: 20px;
+     /* jsj */
+}
+.skill-program{
+    width: 50%;
+    margin: 5px;
+    background-color: #d1d3ff;
+    border-radius: 10px;
+    border: 1px solid red;
+    background-color: rgb(211, 176, 123);
+    
+   
+}
+.computer-skill{
+    margin:20px;
+    background-color: #d1d3ff;
+    border-radius: 10px;
+    border: 1px solid red;
+    background-color: rgb(211, 176, 123);  
+}
+
+/* just a try */
+@media screen and (max-width: 800px) {
+    .computer-skill{
+        width: 100%;
+        background-color: rgb(156, 29, 15);  
+    }
+    .flex-item-left
+  {
+    display: flex;
+    
+    background-color: rgb(146, 11, 173);
+    flex:1 0 140px;
+    
+}
+
+.flex-item-right
+{
+    display: flex;
+   
+    flex:1 0 120px;
+}
+  }
